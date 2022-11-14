@@ -21,7 +21,7 @@ df = load_data()
 def show_explore_page():
     st.title("Data information")
 
-    st.write("How the data relate to the diagnosis")
+    st.write("How the data relates to the diagnosis")
     st.write("Heatmap showing the levels of correlation between each attribute with 1 being the highest possible number")
     df.corr()
     corr_matrix = df.corr()
